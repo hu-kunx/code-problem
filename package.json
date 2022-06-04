@@ -1,0 +1,25 @@
+{
+  "name": "code-problem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fmt": "npx prettier --write '**/*.{ts,js,md}'",
+    "test:promise": "npx promises-aplus-tests promise-like.cjs",
+    "test": "jest --passWithNoTests",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "Hu Kun",
+  "license": "MIT",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "@types/node": "^14.0.4",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.9.3"
+  }
+}
